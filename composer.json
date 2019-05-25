@@ -1,0 +1,30 @@
+{
+    "name": "glenntenorio/laravel-ilovepdf",
+    "description": "iLovePDF PHP API for Laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Glenn Ace Tenorio",
+            "email": "gatenorio@live.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "GlennTenorio\\LaravelIlovepdf\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "GlennTenorio\\LaravelIlovepdf\\": "src/",
+            "Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=5.5.9",
+        "ext-curl": "*",
+        "vlucas/phpdotenv": "^3.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.1"
+    }
+}
