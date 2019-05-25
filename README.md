@@ -4,6 +4,7 @@ Laravel iLovePDF
 [![License](https://poser.pugx.org/glenntenorio/laravel-ilovepdf/license)](https://packagist.org/packages/glenntenorio/laravel-ilovepdf)
 [![Latest Stable Version](https://poser.pugx.org/glenntenorio/laravel-ilovepdf/v/stable)](https://packagist.org/packages/glenntenorio/laravel-ilovepdf)
 [![Total Downloads](https://poser.pugx.org/glenntenorio/laravel-ilovepdf/downloads)](https://packagist.org/packages/glenntenorio/laravel-ilovepdf)
+[![CircleCI](https://circleci.com/gh/glenntenorio/laravel-ilovepdf.svg?style=svg)](https://circleci.com/gh/glenntenorio/laravel-ilovepdf)
 
 A Laravel package library for [iLovePDF API](https://developer.ilovepdf.com) based on the [iLovePDF PHP Library](https://github.com/ilovepdf/ilovepdf-php)
 
