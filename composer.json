@@ -1,11 +1,14 @@
 {
     "name": "glenntenorio/laravel-ilovepdf",
+    "type": "library",
     "description": "iLovePDF PHP API for Laravel",
+    "homepage": "https://github.com/glenntenorio/laravel-ilovepdf",
     "license": "MIT",
     "authors": [
         {
             "name": "Glenn Ace Tenorio",
-            "email": "gatenorio@live.com"
+            "email": "gatenorio@live.com",
+            "homepage": "http://www.glennacetenorio.com"
         }
     ],
     "autoload": {
