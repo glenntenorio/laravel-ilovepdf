@@ -23,11 +23,27 @@
         }
     },
     "require": {
-        "php": ">=5.5.9",
+        "php" : ">=7.0",
         "ext-curl": "*",
         "vlucas/phpdotenv": "^3.3"
     },
     "require-dev": {
         "phpunit/phpunit": "^6.1"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "GlennTenorio\\LaravelIlovepdf\\LaravelIlovepdfServiceProvider"
+            ],
+            "aliases": {
+                "IlovePDF": "GlennTenorio\\LaravelIlovepdf\\Facades\\Ilovepdf"
+            }
+        }
+    },
+    "scripts": {
+        "post-autoload-dump": [
+            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+            "@php artisan package:discover"
+        ]
     }
 }
